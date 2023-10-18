@@ -1,0 +1,106 @@
+.w-logo{
+    width: calc((1/3)*100%);
+}
+
+
+
+
+
+
+.text-xl {
+    font-size: 2rem;
+}
+
+
+.text-lg {
+    font-size: 1.5rem;
+}
+
+
+.text-button {
+    padding: .6em .8em;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: black;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: .4s;
+
+}
+
+.text-button:hover {
+    color: black;
+    background-color: transparent;
+}
+
+
+
+
+
+.icon-button {
+    padding: .2rem;
+    align-items: center;
+    justify-content: center;
+    /* Center the content horizontally */
+    font-size: 1.5rem;
+    display: flex;
+    color: black;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: .4s;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.icon-button:hover {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon-text {
+    font-size: 1.5rem;
+    height: 25px;
+}
+
+
+
+.icon-button-small {
+    padding: .7rem;
+    align-items: center;
+    justify-content: center;
+    /* Center the content horizontally */
+    font-size: 1rem;
+    display: flex;
+    color: black;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: .4s;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.icon-button-small:hover {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon-small-text {
+    font-size: 1rem;
+}
+
+
+.black {
+    color: black;
+}

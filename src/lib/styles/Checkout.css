@@ -1,0 +1,86 @@
+
+.checkout-header text{
+    font-size: larger;
+}
+.checkout-header-label{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    color: #000000b0;
+    justify-content: flex-end;
+}
+
+.checkout-header-label text{
+    font-size: small;
+    padding: 1rem;
+}
+
+
+
+.checkout-container {
+    max-width: 840px;
+    width: auto;
+    padding: 4rem 0;
+}
+
+.checkout-section{
+    border: 1px solid;
+    border-radius: .1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.checkout-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkout-head text{
+    font-size: large;
+    font-weight: 600;
+}
+
+.checkout-field{
+    border-top: 1px dashed;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+/* .checkout-field-item{
+
+} */
+
+.checkout-text-input{
+    background: transparent;
+    padding: .5rem .2rem;
+    font-size: medium;
+    outline: none;
+    border:  1px solid gray;
+}
+
+.payment-box{
+    margin-top: .5rem;
+    width: fit-content;
+    padding: .2rem;
+    border: 1px solid transparent;
+}
+
+.payment-active{
+    /* border: 1px solid gainsboro; */
+    background-color:#ffd90070;
+    /* color: white; */
+    border-radius: .2rem;
+}
+
+.payment-box label{
+    padding: 1rem;
+}
+
+.checkout-field-item-desc{
+    color: #00000070;
+    font-size: smaller;
+    padding: 1rem 0;
+}

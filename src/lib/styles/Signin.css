@@ -1,0 +1,122 @@
+/* SignupPage.css */
+
+.sign-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 4rem 0;
+}
+
+.signup-form {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #00000020;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 320px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.sign-button {
+  margin-top: 2rem;
+}
+
+.signup-form-box {
+  width: 90%;
+}
+
+.signup-form h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: .1rem;
+  font-size: small;
+  color: #555;
+}
+
+.form-group input {
+  width: 97%;
+  margin: 0;
+  padding: .4rem .2rem;
+  font-size: 16px;
+  border: 1px solid #00000020;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+.error-text{
+  width: 100%;
+  padding: .1rem;
+  color: #ff4124ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-text text{
+  margin-left: .1rem;
+  font-size: smaller;
+}
+/* button {
+    width: 100%;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff8c00;
+  }
+   */
+
+.sign-switch-title {
+  margin-top: 2rem;
+  padding-top: .5rem;
+  font-size: smaller;
+  color: #00000070;
+  border-top: 1px dashed #00000040;
+}
+
+
+.sign-switch-button {
+  background-color: white;
+  border: 1.2px solid;
+  font-size: medium;
+  padding: .4rem 1rem;
+  margin-top: .5rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: .4s;
+}
+
+.sign-switch-button:hover {
+  color: white;
+  background-color: black;
+}

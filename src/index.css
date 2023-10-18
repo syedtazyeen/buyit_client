@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html{
+  overscroll-behavior-y:none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Sans-serif';
+}
+
+
+
+
+.link-style {
+  color: inherit;
+  /* Use the parent's color (black in this case) */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+.link-text:hover{
+  color: yellow;
+}
+
+
+
+.hide_scroll::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+.main {
+  position: relative;
+}
+
+/* global */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 19px;
+}
+
+.min-h {
+  min-height: 100vh;
+}
+
+
+.scroll-container {
+  margin: 4rem 0;
+}
+
+
+.scroll-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.row-scroll {
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.row-box {
+  width: fit-content;
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+.item {
+  border-style: solid;
+  border-width: 1.2px;
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 16rem;
+  height: 20rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.item img {
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  /* padding: 1rem; */
+}
+
+.item p {
+  margin: auto 0 0 0;
+  padding: 0 1rem 0;
+}
+
+.item h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 1rem 1rem;
+
+}
+
+.item:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}

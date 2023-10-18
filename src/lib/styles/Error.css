@@ -1,0 +1,17 @@
+.error-container{
+    position: fixed;
+    z-index: 50;
+    background-color: #ffffffd1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container text{
+    font-weight: 600;
+}
